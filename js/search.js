@@ -83,11 +83,28 @@
 
     function createFlower(flower){
         return `<div class="flower">
-        <p>Flower Id: ${flower.flowerId}</p>
-        <p>Flower Name: ${flower.name}</p>
-        <p>Site: ${flower.site}</p>
-        <p>Farmer: ${flower.farmer}</p>
-        <p>Stock: ${flower.stock}</p>
+        <table>
+        <thead>
+        <tr>
+        <th>Flower Id </th>
+        <th>Flower Name </th>
+        <th>Site</th>
+        <th>Farmer</th> 
+        <th>Stock</th>
+        </tr>
+        <tr>
+        <td> ${flower.flowerId}</td>
+        
+        <td> ${flower.name}</td>
+        
+        <td> ${flower.site}</td>
+        
+       <td> ${flower.farmer}</td>
+        
+        <td> ${flower.stock}</td>
+        </tr>
+        
+        </thead>
     </div>`
     }
 
