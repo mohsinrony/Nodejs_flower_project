@@ -61,5 +61,12 @@
         "site": "rocky",
         "farmer": "Peruvia Ltd.",
         "stock": 134
+    },
+    {
+        "flowerId": 10,
+        "name": "Lady's Mantle",
+        "site": "Sunny",
+        "farmer": "Mantle Ltd.",
+        "stock": 129
     }
 ]
