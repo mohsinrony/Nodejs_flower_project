@@ -22,7 +22,7 @@
 
         document.getElementById('submit').addEventListener('click',send);
 
-        idField.addEventListener('focus', clear);
+        flowerIdField.addEventListener('focus', clear);
     }
 
     function clear(){
@@ -37,17 +37,17 @@
 
     async function send(){
         const flower={
-            flwoerId:+flowerIdField.value,
-            name:nameField.value,
-            site:siteField.value,
-            farmer:farmerField.value,
-            stock:+stockField.value
+            flowerId: +flowerIdField.value,
+            name: nameField.value,
+            site: siteField.value,
+            farmer: farmerField.value,
+            stock: +stockField.value
         };
 
         try{
             const options={
                 method:'POST',
-                body:JSON.stringify(flwoer),
+                body:JSON.stringify(flower),
                 headers:{'Content-Type':'application/json'}
             };
             const data=await fetch('/addFlower',options);

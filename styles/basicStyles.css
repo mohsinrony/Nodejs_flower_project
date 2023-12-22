@@ -1,9 +1,32 @@
 h1{
     color:green;
+    background-color: white;
+    text-align: center;
 }
 
 body{
     background-size: cover;
+    min-height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?flower");
+}
+.allFlowers {
+    background-color: white;
+}
+#resultarea {
+    background-color: white;
+}
+button {
+  width: 20%;
+  height: 40px; 
+  margin-top: 10px;
+  background-color: #2bd5ec;
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 10px rgba(255,255,255,.1), inset -5px -8px 8px rgba(0,0,0,.2);
+  transition: background-color 0.3s ease;
 }
 
 .error{

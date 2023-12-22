@@ -1,51 +1,65 @@
 [
-  {
-  "flowerId":4,
-  "name":"tulip",
-  "site":"shady",
-  "farmer":"Violet's Garden",
-  "stock":30
-  },
-  {
-  "flowerId":3,
-  "name":"violet",
-  "site":"sunny",
-  "farmer":"Viola and Hyacinth Company",
-  "stock":20
-  },
-  {
-  "flowerId":7,
-  "name":"marigold",
-  "site":"swamp",
-  "farmer":"Mike Mycelium Ltd.",
-  "stock":25
-  },
-  {
-  "flowerId":2,
-  "name":"lily-of-the-valley",
-  "site":"half shadow",
-  "farmer":"Fungus Ltd.",
-  "stock":150
-},
-{
-"flowerId":5,
-"name":"toadstool",
-"site":"bucket",
-"farmer":"Poison Ivy & Co.",
-"stock":10
-},
-{
-"flowerId":6,
-"name":"rose",
-"site":"rocky",
-"farmer":"Rosamunda",
-"stock":15
-},
-{
-"flowerId":1,
-"name":"mushroom",
-"site":"garage",
-"farmer":"Roses of Rovaniemi oy",
-"stock":13
-}
+    {
+        "flowerId": 1,
+        "name": "mushroom",
+        "site": "garage",
+        "farmer": "Roses of Rovaniemi oy",
+        "stock": 13
+    },
+    {
+        "flowerId": 2,
+        "name": "lily-of-the-valley",
+        "site": "half shadow",
+        "farmer": "Fungus Ltd.",
+        "stock": 150
+    },
+    {
+        "flowerId": 3,
+        "name": "violet",
+        "site": "sunny",
+        "farmer": "Viola and Hyacinth Company",
+        "stock": 20
+    },
+    {
+        "flowerId": 4,
+        "name": "tulip",
+        "site": "shady",
+        "farmer": "Violet's Garden",
+        "stock": 30
+    },
+    {
+        "flowerId": 5,
+        "name": "toadstool",
+        "site": "bucket",
+        "farmer": "Poison Ivy & Co.",
+        "stock": 10
+    },
+    {
+        "flowerId": 6,
+        "name": "rose",
+        "site": "rocky",
+        "farmer": "Rosamunda",
+        "stock": 15
+    },
+    {
+        "flowerId": 7,
+        "name": "marigold",
+        "site": "swamp",
+        "farmer": "Mike Mycelium Ltd.",
+        "stock": 25
+    },
+    {
+        "flowerId": 8,
+        "name": "African Daisy",
+        "site": "bucket",
+        "farmer": "Gazania Ltd.",
+        "stock": 120
+    },
+    {
+        "flowerId": 9,
+        "name": "Peruvian Lily",
+        "site": "rocky",
+        "farmer": "Peruvia Ltd.",
+        "stock": 134
+    }
 ]

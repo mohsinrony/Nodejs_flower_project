@@ -76,18 +76,18 @@
             showErrorMessage('Nothing found');
         }
         else{
-            const htmlString=data.map(item=>createflower(item)).join(' ');
+            const htmlString=data.map(item=>createFlower(item)).join(' ');
             resultarea.innerHTML=htmlString;
         }
     }
 
     function createFlower(flower){
         return `<div class="flower">
-        <p>id: ${flower.flowerId}</p>
-        <p>First name: ${flower.name}</p>
-        <p>Last name: ${flower.site}</p>
-        <p>Department: ${flower.farmer}</p>
-        <p>Salary: ${flower.stock}</p>
+        <p>Flower Id: ${flower.flowerId}</p>
+        <p>Flower Name: ${flower.name}</p>
+        <p>Site: ${flower.site}</p>
+        <p>Farmer: ${flower.farmer}</p>
+        <p>Stock: ${flower.stock}</p>
     </div>`
     }
 
